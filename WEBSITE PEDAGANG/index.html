@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FN CCTV CENTER</title>
+  <link rel="stylesheet" href="pedagang.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">FN CCTV CENTER</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="cctv & wifi.png" class="cctv-wifi" />
+    <img src="cctv transparan.png" class="cctv-png" />
+    <img src="cctv-kekiri.png" class="cctv2-png" />
+    <h1>PUSAT PASANG CCTV & WIFI</h1>
+    <p>kualitas Barang Terjamin, Teknisi Berpengalaman, Lebih Aman & Terpercaya</p>
+    <button onclick="scrollToProduk()">Hubungi Penjual</button>
+    <!-- <img src="cctv transparan.png" class="cctv-png" /> -->
+  </section>
+
+  <!-- Filter -->
+  <section class="filter">
+    <button onclick="filterProduk('all')">Semua</button>
+    <button onclick="filterProduk('pria')">Kantoran</button>
+    <button onclick="filterProduk('wanita')">Prumahan</button>
+  </section>
+
+  <!-- Produk -->
+  <section id="produk" class="produk-container">
+
+    <div class="card pria">
+      <img src="cctv-kekiri.png" alt="Baju Pria">
+      <h3>CCTV TIPE-C</h3>
+      <a>Ter Laris Lensa Jernih</a>
+      <p>Rp 3.500.000</p>
+      <button onclick="beliProduk('Kemeja Casual Pria')">Beli</button>
+    </div>
+
+    <div class="card wanita">
+      <img src="cctv standar.png" alt="Dress Wanita">
+      <h3>CCTV TIPE-A</h3>
+      <a>standar 2mp</a>
+      <p>Rp 1.000.000</p>
+      <button onclick="beliProduk('Dress Elegan Wanita')">Beli</button>
+    </div>
+
+    <div class="card pria">
+      <img src="cctv transparan.png" alt="Jaket Pria">
+      <h3>CCTV TIPE-B</h3>
+      <a>layer jernih 8mp</a>
+      <p>Rp 1.500.000</p>
+      <button onclick="beliProduk('Jaket Hoodie Pria')">Beli</button>
+    </div>
+
+    <div class="card wanita">
+      <img src="cctv big.png" alt="Blouse Wanita">
+      <h3>CCTV TIPE-Z</h3>
+      <a>Full Quality</a>
+      <p>Rp 5.500.000</p>
+      <button onclick="beliProduk('Blouse Modern Wanita')">Beli</button>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="kontak">
+    <div class="footer1">
+      <h1>HUBUNGI PENJUAL</h1>
+      <a>Whatsapp</a>
+      <a>Instagram</a>
+      <a>Email</a>
+      <h2>FN CCTV CENTER</h2>
+      <p>Email: furkonjr100@gmail.com</p>
+      <p>WhatsApp: 0838-4457-4735</p>
+    </div>
+  </footer>
+
+  <script src="pedagang.js"></script>
+</body>
+</html>
